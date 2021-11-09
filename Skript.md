@@ -16,11 +16,17 @@ Cli vs Desktop Client vs VSCode vs Browser
 (Rechtsklick -> Git-Bash here)
 
 Linux (git)	| 	Windows
+
 pwd			echo %cd%
+
 cd ..			cd x
+
 ls -l (ls -la)		dir
+
 mkdir x			mkdir x
+
 clear			cls
+
 git (--help)
 
 ### nitialisierung eines Repositories
