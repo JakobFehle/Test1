@@ -15,19 +15,15 @@ Cli vs Desktop Client vs VSCode vs Browser
 ## Git -> CLI / Erfahrung Kommandozeile (CLI)?
 (Rechtsklick -> Git-Bash here)
 
-Linux (git)	| 	Windows
-
-pwd			echo %cd%
-
-cd ..			cd x
-
-ls -l (ls -la)		dir
-
-mkdir x			mkdir x
-
-clear			cls
-
-git (--help)
+| Linux (git)    	|   	| Windows   	| Anmerkung        	|
+|----------------	|---	|-----------	|------------------	|
+|                	|   	|           	|                  	|
+| pwd            	|   	| echo %cd% 	| Aktueller Pfad   	|
+| cd ..          	|   	| cd x      	| Change Directory 	|
+| mkdir          	|   	| mkdir     	| Make Directory   	|
+| ls -l (ls -la) 	|   	| dir       	| Alle Ordner      	|
+| clear          	|   	| cls       	| Clear CLI        	|
+| git --help     	|   	|           	|                  	|
 
 ### nitialisierung eines Repositories
 git init
