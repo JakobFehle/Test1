@@ -132,7 +132,7 @@ Stagen, Commiten und Mergen
 ## Merge-Konflikt lösen
 
   
-# Github Pull-Requests
+# Github Pull-Requests (Close Issue-Nummer)
 ## Patch -> Master Mergen
 Merge Conflict im Browser lösen und commiten oder in VSCode Master -> Commit mergen und commiten + pushen (Pull-Request wird dann aktualisiert)
   
