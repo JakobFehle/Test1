@@ -136,7 +136,7 @@ Stagen, Commiten und Mergen
 ## Patch -> Master Mergen
 Merge Conflict im Browser lösen und commiten oder in VSCode Master -> Commit mergen und commiten + pushen (Pull-Request wird dann aktualisiert)
   
-
+# Github Desktop
   
 
 
