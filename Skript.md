@@ -47,13 +47,13 @@ git commit (-m)       Beschreibung der Änderung (Bugfix, Features)
 ## Aktuellen Status überprüfen (keine ungestagedten Änderungen mehr)
 git status
 
-## Neuen Commit hinzufügen
+## Neuen Commit hinzufügen (Refactoring)
 ...
 
 ## Versionsgeschichte abrufen
 git log
 
-## Erneute Änderung an der index.js
+## Erneute Änderung an der index.js (Schreibfehler)
 nano index.js
 
 ## Untersuchung der Änderung und Rückgängig machen
@@ -74,7 +74,28 @@ git branch
 ## Zu neuem Branch wechseln
 git checkout development
 
+git status
 
+## Neuen Commit erstellen (Methodenaufruf)
+nano index.js
+
+git add . && git commit -m "Aufruf der HelloWorld Funktion"
+
+## Überprüfen der Änderung in den beiden Branches
+git log
+
+git checkout master
+
+git log
+
+## Merge der beiden Branches
+
+git merge development (Eventuell Merge)
+
+git log
+
+## Alten Branch löschen wenn nicht mehr benötigt
+git branch -d development
 
 # Mit Github Remote Versionskontrolle
 
@@ -85,6 +106,7 @@ git checkout development
 -> git push --all origin (Alle Branches syncen)
 
 
+  
 VSCode
 
 Commit-Hashes (Head)
