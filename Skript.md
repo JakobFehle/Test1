@@ -51,7 +51,7 @@ git status
 ...
 
 ## Versionsgeschichte abrufen
-git log
+git log (Git Hashes)
 
 ## Erneute Änderung an der index.js (Schreibfehler)
 nano index.js
@@ -105,11 +105,39 @@ git branch -d development
 
 -> git push --all origin (Alle Branches syncen)
 
+## Repo auf Github
+### Auswahl der Branches
+### Hinzufügen/Ändern/Herunterladen von Dateien
+Leere Datei hinzufügen
+### Auswahl der Commits, Begutachten des Repos zu einem bestimmten Stand, ändern des WD zu einem bestimmten Commit
+### Wiki
+### Erstellen von Issues und Projects
+### Pull-Request später
+  
+## Pull von Remote
+git pull
 
   
-VSCode
+# VSCode
+## Projekt einbinden
+## Git History (Commits, Branches, Reset, New Branch)
+## Branch wechseln
+## Neuen Branch mit Kommentaren
+### Kommentare in Datei hinzufügen
+### Änderungen Stagen
+### Änderungen Commiten
+### Branch mergen (sollte funktionieren)
+## Neuer Branch mit Patch (Neuer Comment und neuer Text)
+Stagen, Commiten und Mergen
+## Merge-Konflikt lösen
 
-Commit-Hashes (Head)
+  
+# Github Pull-Requests
+## Patch -> Master Mergen
+Merge Conflict im Browser lösen und commiten oder in VSCode Master -> Commit mergen und commiten + pushen (Pull-Request wird dann aktualisiert)
+  
+
+  
 
 
 
