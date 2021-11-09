@@ -1,1 +1,1 @@
-console.log("new");
+console.log("New Console Output");
