@@ -25,7 +25,9 @@ Cli vs Desktop Client vs VSCode vs Browser
 | clear          	|   	| cls       	| Clear CLI        	|
 | git --help     	|   	|           	|                  	|
 
-### nitialisierung eines Repositories
+# Erstellen eines Git-Repositories
+## Initialisierung eines Repositories
+mkdir Git-Intro
 git init
 
 ## Anzeige des Ordnerinhalts
@@ -39,6 +41,9 @@ nano index.js
 
 ## Ausgabe der Datei in der CLI
 cat index.js
+
+## Überprüfen des Git-Repositories
+git status
 
 ## Dateien in die Versionsverwaltung einbinden (tracken)
 git add index.js
@@ -76,10 +81,10 @@ git checkout development
 
 git status
 
-## Neuen Commit erstellen (Methodenaufruf)
+## Neuen Commit erstellen (Bugfix Methodenaufruf)
 nano index.js
 
-git add . && git commit -m "Aufruf der HelloWorld Funktion"
+git add . && git commit -m "Bugfix: Aufruf der HelloWorld Funktion"
 
 ## Überprüfen der Änderung in den beiden Branches
 git log
@@ -90,7 +95,7 @@ git log
 
 ## Merge der beiden Branches
 
-git merge development (Eventuell Merge)
+git merge development (Eventuell Konflikt)
 
 git log
 
